@@ -5,15 +5,15 @@
 
 using testing::Eq;
 
-/*TEST(test_1, a_AbrirParque){
+TEST(test_1, a_AbrirParque){
     ParqueEstacionamento p1(4, 6);
     // Testa se o parque foi aberto com a lotacao indicada
     ASSERT_EQ(4, p1.getNumLugares());
     // Testa se o parque foi aberto com o numero maximo de clientes indicado
     ASSERT_EQ(6, p1.getNumMaximoClientes());
-}*/
+}
 
-/*TEST(test_1, b_AdicionarCliente){
+TEST(test_1, b_AdicionarCliente){
     ParqueEstacionamento p1(3, 5);
     // Testa se deixa adicionar um novo cliente
     ASSERT_EQ(true, p1.adicionaCliente("Joao"));
@@ -27,9 +27,9 @@ using testing::Eq;
     ASSERT_EQ(1, p1.posicaoCliente("Antonio"));
     // Testa se retorna -1 caso o cliente nao exista
     ASSERT_EQ(-1, p1.posicaoCliente("Joana"));
-}*/
+}
 
-/*TEST(test_1, c_EntrarParque){
+TEST(test_1, c_EntrarParque){
     ParqueEstacionamento p1(3, 5);
     p1.adicionaCliente("Joao");
     p1.adicionaCliente("Maria");
@@ -45,9 +45,9 @@ using testing::Eq;
     p1.entrar("Antonio");
     // Testa se nao deixa entrar quando a lotacao esta completa
     ASSERT_EQ(false, p1.entrar("Rui"));
-}*/
+}
 
-/*TEST(test_1, d_RetirarCliente){
+TEST(test_1, d_RetirarCliente){
     ParqueEstacionamento p1(3, 5);
     p1.adicionaCliente("Joao");
     p1.adicionaCliente("Maria");
@@ -59,9 +59,9 @@ using testing::Eq;
     ASSERT_EQ(true, p1.retiraCliente("Antonio"));
     // Testa se nao deixa remover cliente que nao existe
     ASSERT_EQ(false, p1.retiraCliente("Ana"));
-}*/
+}
 
-/*TEST(test_1, e_SairParque){
+TEST(test_1, e_SairParque){
     ParqueEstacionamento p1(3, 5);
     p1.adicionaCliente("Joao");
     p1.adicionaCliente("Maria");
@@ -75,9 +75,9 @@ using testing::Eq;
     ASSERT_EQ(false, p1.sair("Maria"));
     // Testa se nao deixa sair um cliente que nao existe.
     ASSERT_EQ(false, p1.sair("Antonio"));
-}*/
+}
 
-/*TEST(test_1, f_LugaresLotacaoParque){
+TEST(test_1, f_LugaresLotacaoParque){
     ParqueEstacionamento p1(3, 5);
     p1.adicionaCliente("Joao");
     p1.adicionaCliente("Maria");
@@ -90,4 +90,4 @@ using testing::Eq;
     ASSERT_EQ(2, p1.getNumLugaresOcupados());
     // Testa se o o numero de clientes registados no parque esta correcto
     ASSERT_EQ(3, p1.getNumClientesAtuais());
-}*/
+}
