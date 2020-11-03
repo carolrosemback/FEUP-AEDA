@@ -1,0 +1,4 @@
+"D:\Downloads\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda2021_p03"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda2021_p03/cmake-build-debug
