@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Box.h
+Object.h
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Object.h
+
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Object.h
+iostream
+-
+string
+-
+
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/ThinTallBox.h
+stack
+-
+Box.h
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Box.h
+
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Warehouse.cpp
+Warehouse.h
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Warehouse.h
+algorithm
+-
+
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Warehouse.h
+queue
+-
+Box.h
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Box.h
+Object.h
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/Object.h
+ThinTallBox.h
+D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci2/Tests/ThinTallBox.h
+
