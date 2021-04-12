@@ -3,7 +3,6 @@
 
 #include <vector>
 #include <list>
-#include <algorithm>
 
 template <class Chamber>
 class Hotel {
@@ -32,14 +31,18 @@ public:
 	NoSuchChamberException() { }
 };
 
+
 class NoSuchFloorException {
 private:
     int floor;
 public:
-    NoSuchFloorException(int fl): floor(fl){};
-    int getFloor() const { return floor;};
-
+    int getFloor(){return floor;}
+    NoSuchFloorException(int fl): floor(fl) { }
 };
+
+
+
+
 
 template <class Chamber>
 Hotel<Chamber>::Hotel(int size, std::string municipality) : maxCapacity(size), city(municipality) {
@@ -81,29 +84,27 @@ std::list<Chamber> Hotel<Chamber>::getReservationsDone() const {
 //------------------------------------------------------
 //------------------------------------------------------
 
-
+//TODO
 template<class Chamber>
 bool Hotel<Chamber>::addChamber(Chamber *chamber) {
-    if(maxCapacity == chambers.size())
+    if(chambers.size() == maxCapacity)
         return false;
-    else {
-        for(int i =0; i < chambers.size(); i++)
-        {
-            if((*chambers[i]) == (*chamber))
-                return false;
-        }
-        chambers.push_back(chamber);
-        return true;
+    for(int i = 0; i < chambers.size(); i++)
+    {
+        if(*chambers[i] == *chamber)
+            return false;
     }
+    chambers.push_back(chamber);
+    return true;
 }
 
-
-bool compChamber(const Room* r1, const Room* r2){
-    if(r1->getCode() < r2->getCode())
+bool compChamb(const Room* c1, const Room* c2)
+{
+    if(c1->getCode() < c2->getCode())
         return true;
-    if (r1->getCode() == r2->getCode())
+    else if (c1->getCode() == c2->getCode())
     {
-        if(r1->getFloor() > r2->getFloor())
+        if(c1->getFloor() > c2->getFloor())
             return true;
     }
     return false;
@@ -111,64 +112,55 @@ bool compChamber(const Room* r1, const Room* r2){
 
 template<class Chamber>
 void Hotel<Chamber>::sortChambers() {
-    sort(chambers.begin(), chambers.end(), compChamber);
+    sort(chambers.begin(), chambers.end(), compChamb);
 }
 
 
 template<class Chamber>
 Chamber* Hotel<Chamber>::removeChamber(std::string code, int floor) {
-    auto it = chambers.begin();
-    auto ite = chambers.end();
     Chamber *temp;
-    while(it != ite)
+    for(auto it = chambers.begin(); it != chambers.end(); it++)
     {
-        if ((*it)->getCode() == code && (*it)->getFloor() == floor)
+        if((*it)->getCode() == code && (*it)->getFloor() == floor)
         {
             temp = *it;
             chambers.erase(it);
-            return (temp);
+            return(temp);
         }
-        it++;
     }
-        throw NoSuchChamberException();
-
+   throw NoSuchChamberException();
 }
 
 
 template<class Chamber>
-float Hotel<Chamber>::avgArea(int floor) const
-{
-    auto it = chambers.begin();
-    auto ite = chambers.end();
-    int size= 0;
-    float count = 0;
-    while(it != ite)
+float Hotel<Chamber>::avgArea(int floor) const {
+    float sum = 0;
+    int count = 0;
+    for(auto it= chambers.begin(); it!= chambers.end(); it++)
     {
-        if ((*it)->getFloor() == floor)
+        if((*it)->getFloor() == floor)
         {
-            count += (*it)->getArea();
-            size++;
+            sum += (*it)->getArea();
+            count++;
         }
-        it++;
     }
-    if(count == 0)
-        throw NoSuchFloorException(floor);
+    float med = sum/count;
 
-    count = count/size;
-return count;
+    if(count ==0)
+        throw NoSuchFloorException(floor);
+    return med;
 }
 
 
 template<class Chamber>
 bool Hotel<Chamber>::doReservation(std::string code, int floor){
-    for(auto it = chambers.begin(); it != chambers.end(); it++)
+    for(auto it= chambers.begin(); it!= chambers.end(); it++)
     {
-        if((*it)->getCode() == code && (*it)->getFloor() == floor)
+        if((*it)->getFloor() == floor && (*it)->getCode() == code)
         {
             if((*it)->getReservation() == true)
                 return false;
-            else
-            {
+            else {
                 (*it)->setReservation(true);
                 reservationsDone.push_back(*(*it));
                 return true;
@@ -178,31 +170,25 @@ bool Hotel<Chamber>::doReservation(std::string code, int floor){
     return false;
 }
 
-
 template<class Chamber>
 std::list<Chamber> Hotel<Chamber>::roomsNeverReserved() const {
-    std::list<Chamber> notReserved;
-    bool found = false;
-    for(auto it = chambers.begin(); it != chambers.end(); it++)
+    std::list<Chamber> res;
+    bool found;
+    for(auto it= chambers.begin(); it!= chambers.end(); it++)
     {
-        for(auto itr = reservationsDone.begin(); itr != reservationsDone.end(); itr++)
-        {
-            if((*it)->getCode() == (itr)->getCode() && (*it)->getFloor() == (itr)->getFloor()){
+        for(auto itr = reservationsDone.begin(); itr != reservationsDone.end(); itr++) {
+
+            if ((*it)->getCode() == (itr)->getCode() && (*it)->getFloor() == (itr)->getFloor()) {
                 found = true;
                 break;
             }
         }
         if(!found)
-        notReserved.push_back(*(*it));
-
-        found= false;
-
+            res.push_back(*(*it));
+        found = false;
     }
-    return notReserved;
+        return res;
 }
-
-
-
 
 
 

@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Downloads\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Downloads\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Downloads\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Downloads\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -80,99 +80,99 @@ CMakeFiles/aeda1920_ci2.dir/main.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/main.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda1920_ci2.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\main.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\main.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\main.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\main.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\main.cpp" > CMakeFiles\aeda1920_ci2.dir\main.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\main.cpp" > CMakeFiles\aeda1920_ci2.dir\main.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\main.cpp" -o CMakeFiles\aeda1920_ci2.dir\main.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\main.cpp" -o CMakeFiles\aeda1920_ci2.dir\main.cpp.s
 
 CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.obj: ../Tests/tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\tests.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\tests.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\tests.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\tests.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\tests.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\tests.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\tests.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\tests.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/Tests/tests.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\tests.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\tests.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\tests.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\tests.cpp.s
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.obj: ../Tests/Object.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\Object.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Object.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\Object.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Object.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Object.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\Object.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Object.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\Object.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/Tests/Object.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Object.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\Object.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Object.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\Object.cpp.s
 
 CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.obj: ../Tests/WideFlatBox.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\WideFlatBox.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\WideFlatBox.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\WideFlatBox.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\WideFlatBox.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\WideFlatBox.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\WideFlatBox.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\WideFlatBox.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\WideFlatBox.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/Tests/WideFlatBox.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\WideFlatBox.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\WideFlatBox.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\WideFlatBox.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\WideFlatBox.cpp.s
 
 CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.obj: ../Tests/ThinTallBox.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\ThinTallBox.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\ThinTallBox.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\ThinTallBox.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\ThinTallBox.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\ThinTallBox.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\ThinTallBox.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\ThinTallBox.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\ThinTallBox.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/Tests/ThinTallBox.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\ThinTallBox.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\ThinTallBox.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\ThinTallBox.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\ThinTallBox.cpp.s
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.obj: ../Tests/Box.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\Box.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Box.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\Box.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Box.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Box.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\Box.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Box.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\Box.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/Tests/Box.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Box.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\Box.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Box.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\Box.cpp.s
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.obj: CMakeFiles/aeda1920_ci2.dir/flags.make
 CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.obj: CMakeFiles/aeda1920_ci2.dir/includes_CXX.rsp
 CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.obj: ../Tests/Warehouse.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\Warehouse.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Warehouse.cpp"
+	D:\Downloads\mingw\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1920_ci2.dir\Tests\Warehouse.cpp.obj -c "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Warehouse.cpp"
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Warehouse.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\Warehouse.cpp.i
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Warehouse.cpp" > CMakeFiles\aeda1920_ci2.dir\Tests\Warehouse.cpp.i
 
 CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1920_ci2.dir/Tests/Warehouse.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Warehouse.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\Warehouse.cpp.s
+	D:\Downloads\mingw\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documentos\FEUP\3 ano\1 semestre\AEDA\aeda1920_ci2\Tests\Warehouse.cpp" -o CMakeFiles\aeda1920_ci2.dir\Tests\Warehouse.cpp.s
 
 # Object files for target aeda1920_ci2
 aeda1920_ci2_OBJECTS = \

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p07/Tests/binaryTree.h
+iostream
+-
+stack
+-
+queue
+-
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p07/Tests/game.cpp
+game.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p07/Tests/game.h
+sstream
+-
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p07/Tests/game.h
+binaryTree.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p07/Tests/binaryTree.h
+iostream
+-
+stdlib.h
+-
+

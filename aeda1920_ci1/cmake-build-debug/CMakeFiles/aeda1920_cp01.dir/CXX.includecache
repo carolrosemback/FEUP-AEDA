@@ -514,27 +514,25 @@ cxxabi.h
 acxx_demangle.h
 -
 
-D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci1/Tests/Hotel.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda1920_ci1/Tests/Hotel.h
 vector
 -
 list
 -
-algorithm
--
 
-D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci1/Tests/Room.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda1920_ci1/Tests/Room.h
 string
 -
 
-D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci1/Tests/tests.cpp
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda1920_ci1/Tests/tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
 Room.h
-D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci1/Tests/Room.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda1920_ci1/Tests/Room.h
 Hotel.h
-D:/Documentos/FEUP/3 ano/1 semestre/AEDA/aeda1920_ci1/Tests/Hotel.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda1920_ci1/Tests/Hotel.h
 string
 -
 vector

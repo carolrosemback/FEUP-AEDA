@@ -96,25 +96,23 @@ void LuxuryRoom::setTypeBed(string tB){
 
 
 bool Room::operator == (const Room &room) const{
-    if(code == room.code && floor == room.floor)
+    if(room.code == code && room.floor == floor)
         return true;
-    return false;
 }
+
 
 float RegularRoom::price() const {
-    int price = getArea()*4.0;
-    return price;
+    return getArea()*4;
 }
+
 
 float FamilyRoom::price() const {
-    float price = getArea()*4.0;
-    return price;
+    return getArea()*4;
 }
 
+
 float LuxuryRoom::price() const {
-    float price = getArea()*4.0;
-    price += price*0.15;
-    return price;
+    return (getArea()*4)+ 0.15*((getArea()*4));
 }
 
 

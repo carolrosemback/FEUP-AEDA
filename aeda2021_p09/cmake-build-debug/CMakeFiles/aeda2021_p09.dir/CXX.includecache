@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p09/Tests/bet.h
+unordered_set
+-
+vector
+-
+string
+-
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p09/Tests/player.cpp
+player.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p09/Tests/player.h
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p09/Tests/player.h
+bet.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p09/Tests/bet.h
+string
+-
+

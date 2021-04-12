@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p10/Tests/box.h
+stack
+-
+iostream
+-
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p10/Tests/packagingMachine.cpp
+packagingMachine.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p10/Tests/packagingMachine.h
+sstream
+-
+
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p10/Tests/packagingMachine.h
+queue
+-
+vector
+-
+stack
+-
+iostream
+-
+box.h
+D:/Documentos/FEUP/2 ano/1 semestre/Algoritmos/aeda2021_p10/Tests/box.h
+
